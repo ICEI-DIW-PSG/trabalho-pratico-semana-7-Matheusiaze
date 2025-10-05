@@ -13,32 +13,70 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Matheus Iaze Mazzoni
+- Matricula: 00900363
+- Proposta de projeto escolhida: Exposição artistica
+- Breve descrição sobre seu projeto: Um site com o intuito de fazer uma exposição de obras de arte e suas informações, para apreciação e estudo das mesmas.
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print home](image.png)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+![página de detalhes do item](image-1.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
-  {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
-  }
+const obras = [
+    {
+        id: "viagem-das-rochas",
+        titulo: "Viagem das rochas",
+        imagem: "imagens/viagemdasrochas.jpg",
+        descricao: "Descrição detalhada da Viagem das rochas."
+    },
+    {
+        id: "ultima-ceia",
+        titulo: "Última Ceia",
+        imagem: "imagens/santa.jpg",
+        descricao: "Descrição detalhada da Última Ceia."
+    },
+    {
+        id: "homem-vitruviano",
+        titulo: "Homem Vitruviano",
+        imagem: "imagens/homem vitruviano.webp",
+        descricao: "Descrição detalhada do Homem Vitruviano."
+    },
+    {
+        id: "anunciacao",
+        titulo: "A Anunciação",
+        imagem: "imagens/anunciacao.jpg",
+        descricao: "Descrição detalhada da Anunciação."
+    },
+    {
+        id: "monalisa",
+        titulo: "Monalisa",
+        imagem: "imagens/mona.jpg",
+        descricao: "Descrição detalhada da Monalisa."
+    },
+    {
+        id: "dama-com-arminho",
+        titulo: "Dama com Arminho",
+        imagem: "imagens/Dama com Arminho.jpg",
+        descricao: "Descrição detalhada da Dama com Arminho."
+    },
+    {
+        id: "giz-vermelho",
+        titulo: "Retrato de um homem em giz vermelho",
+        imagem: "imagens/Retrato de um homem em giz vermelho.jpg",
+        descricao: "Descrição detalhada do Retrato de um homem em giz vermelho."
+    },
+    {
+        id: "virgem-e-menino",
+        titulo: "A Virgem e o Menino com Santa Ana",
+        imagem: "imagens/A Virgem e o Menino com Santa Ana.jpg",
+        descricao: "Descrição detalhada da Virgem e o Menino com Santa Ana."
+    }
 ]
 ```
